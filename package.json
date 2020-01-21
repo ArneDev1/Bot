@@ -1,0 +1,21 @@
+{
+  "name": "cloudmc",
+  "version": "1.0.0",
+  "description": "cloudmc bot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon"
+  },
+  "author": "Wolfjuh",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^11.5.1",
+    "ffmpeg-binaries": "^3.2.2",
+    "opusscript": "0.0.7",
+    "ytdl-core": "^0.29.5"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
+}

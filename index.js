@@ -1,5 +1,5 @@
 const discord = require("discord.js");
-const botConfig = require("./botconfig.json");
+const botConfig = require("botconfig.json");
 
 const active = new Map();
 
@@ -44,4 +44,4 @@ fs.readdir("commands/", (err, files) => {
 });
 
 
-bot.login("NjY5MTkzODE4MTUwNTM1MTc4.XicRwg.H7r8aP9pNZcfBdbHdeg2V81cPCw");
+bot.login(botConfig.token);
